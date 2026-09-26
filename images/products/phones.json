@@ -4,7 +4,7 @@
     "network": "4G",
     "price_inr": 6699,
     "url": "https://www.flipkart.com/infinix-smart-8-hd-shiny-gold-64-gb/p/itm709d885ba6ac1?pid=MOBGVAPXG4WHFR9M&marketplace=FLIPKART",
-    "image_file": "/workspace/shakti-mobiles/images/products/phone-4g.jpg",
+    "image_file": "/workspace/shakti-mobiles/images/products/phone-4g.png",
     "source": "Flipkart"
   },
   {
@@ -12,7 +12,7 @@
     "network": "5G",
     "price_inr": 10999,
     "url": "https://www.flipkart.com/poco-c75-5g-aqua-bliss-64-gb/p/itm10b3f6f1bc616",
-    "image_file": "/workspace/shakti-mobiles/images/products/phone-5g.jpg",
+    "image_file": "/workspace/shakti-mobiles/images/products/phone-5g.png",
     "source": "Flipkart"
   }
 ]
