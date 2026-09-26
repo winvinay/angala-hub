@@ -39,7 +39,13 @@
       "Exact boAt Airdopes / Rockerz SKU mix",
       "Exact LYNE smartwatch model number",
       "phone-samsung-f05.jpg filename suggested Samsung Galaxy F05 but image is Lava Bold N4 Lite"
-    ]
+    ],
+    "history_enabled": true,
+    "history_backfill": {
+      "date": "2026-09-26",
+      "timestamp": "2026-09-26T23:41:58+05:30",
+      "note": "Initial History sheet + created_at/modified_at backfill for all existing products as added."
+    }
   },
   "columns": [
     "Category",
@@ -48,7 +54,10 @@
     "Image Source/URL",
     "Specs",
     "Notes",
-    "Source Links"
+    "Source Links",
+    "id",
+    "created_at",
+    "modified_at"
   ],
   "products": [
     {
@@ -58,7 +67,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/products/phone-4g.jpg",
       "Specs": "6.6\" HD+ IPS; Unisoc T606; 3GB RAM / 64GB ROM (expandable to 2TB); 13MP + AI rear, 8MP front; 5000mAh; 10W; Dual SIM 4G",
       "Notes": "Verified Flipkart listing. Color Shiny Gold visible in store product photo. Alternate images: phone-4g-infinix.jpg, phone-4g-alt.jpg.",
-      "Source Links": "https://www.flipkart.com/infinix-smart-8-hd-shiny-gold-64-gb/p/itm709d885ba6ac1?pid=MOBGVAPXG4WHFR9M ; https://infinixmobiles.in/products/smart-8-hd"
+      "Source Links": "https://www.flipkart.com/infinix-smart-8-hd-shiny-gold-64-gb/p/itm709d885ba6ac1?pid=MOBGVAPXG4WHFR9M ; https://infinixmobiles.in/products/smart-8-hd",
+      "id": "AH-001-infinix-smart-8-hd-shiny-gold-3gb-64gb",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Smartphones",
@@ -67,7 +79,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/products/phone-5g-try1.jpg",
       "Specs": "6.88\" HD+ 120Hz; Snapdragon 4s Gen 2 5G; 4GB/64GB (expandable 1TB); 50MP Sony rear, 5MP front; 5160mAh; Dual SIM",
       "Notes": "Prefer phone-5g-try1.jpg over phone-5g.jpg per catalog guidance. Flipkart ~INR 10,999 (bank offer may lower).",
-      "Source Links": "https://www.flipkart.com/poco-c75-5g-aqua-bliss-64-gb/p/itm10b3f6f1bc616"
+      "Source Links": "https://www.flipkart.com/poco-c75-5g-aqua-bliss-64-gb/p/itm10b3f6f1bc616",
+      "id": "AH-002-poco-c75-5g-aqua-bliss-4gb-64gb",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Smartphones",
@@ -76,7 +91,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/products/phone-samsung-f05.jpg",
       "Specs": "6.56\" qHD; Unisoc 9863A; 3GB+3GB virtual RAM / 32GB ROM (expandable 64GB); 8MP rear, 5MP front; 5000mAh; 10W; Android 16 Go; MIL-STD-810H",
       "Notes": "File named phone-samsung-f05.jpg but image content is Lava Bold N4 Lite (LAVA logo + BOLD N4 LITE on screen). Same asset as phone-4g-samsung-amz.jpg. Amazon.in exclusive; ~INR 7,999–8,399.",
-      "Source Links": "https://www.amazon.in/Lava-Storage-Display-Fingerprint-Phone-Cover/dp/B0HDPDGKJ4 ; https://www.91mobiles.com/lava-bold-n4-lite-4g-price-in-india"
+      "Source Links": "https://www.amazon.in/Lava-Storage-Display-Fingerprint-Phone-Cover/dp/B0HDPDGKJ4 ; https://www.91mobiles.com/lava-bold-n4-lite-4g-price-in-india",
+      "id": "AH-003-lava-bold-n4-lite-empire-gold-3gb-32gb",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Smartphones",
@@ -85,7 +103,10 @@
       "Image Source/URL": "Store brand signage (Samsung listed); no dedicated clear F05 product photo in inspected set",
       "Specs": "6.74\" HD+; Helio G85; 4GB/64GB (expandable 1TB); 50MP+2MP rear, 8MP front; 5000mAh; 25W; Android 14; Dual SIM 4G",
       "Notes": "Store sells Samsung (signage). Prior catalog guidance confirmed ~INR 6,499 Flipkart/Smartprix. Dedicated image file was mislabeled (see Lava Bold N4 Lite row).",
-      "Source Links": "https://www.flipkart.com/samsung-galaxy-f05-twilight-blue-64-gb/p/itm84a914081ab93 ; https://www.smartprix.com/mobiles/samsung-galaxy-f05-ppd1u4z3r099"
+      "Source Links": "https://www.flipkart.com/samsung-galaxy-f05-twilight-blue-64-gb/p/itm84a914081ab93 ; https://www.smartprix.com/mobiles/samsung-galaxy-f05-ppd1u4z3r099",
+      "id": "AH-004-samsung-galaxy-f05-4gb-64gb",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Smartphones",
@@ -94,7 +115,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/service-counter.jpg ; chat upload interior counter",
       "Specs": "Budget Redmi A-series; typical configs 3GB/64GB to 6GB/128GB; Dual SIM 4G",
       "Notes": "Red retail box clearly visible on glass counter labeled REDMI A3. Exact RAM/storage of in-store unit not readable; price range from Flipkart variants.",
-      "Source Links": "https://pricehistory.app/p/redmi-a3-lake-blue-64-gb-3-TTlxopmb ; https://www.flipkart.com/redmi-a3-lake-blue-128-gb/p/itmbe3bd4f2bebed"
+      "Source Links": "https://pricehistory.app/p/redmi-a3-lake-blue-64-gb-3-TTlxopmb ; https://www.flipkart.com/redmi-a3-lake-blue-128-gb/p/itmbe3bd4f2bebed",
+      "id": "AH-005-redmi-a3-assorted-variants",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Smartphones",
@@ -103,7 +127,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/service-counter.jpg",
       "Specs": "realme branded yellow retail box on counter; exact model text not fully legible (possible C-series)",
       "Notes": "Could not confidently identify exact model from box photo. Store carries realme (signage + accessories).",
-      "Source Links": "https://www.realme.com/in/"
+      "Source Links": "https://www.realme.com/in/",
+      "id": "AH-006-realme-smartphone-boxed-model-unclear",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Feature Phones",
@@ -112,7 +139,10 @@
       "Image Source/URL": "Chat upload service/accessory shelves (Nokia blue box)",
       "Specs": "Keypad feature phone; Dual SIM options typical for Nokia 105 Classic / related",
       "Notes": "Small blue Nokia retail box visible on lower accessory shelf. Exact SKU (105 vs 110) not readable at distance.",
-      "Source Links": "https://pricehunt.com/mobiles/nokia-105.php"
+      "Source Links": "https://pricehunt.com/mobiles/nokia-105.php",
+      "id": "AH-007-nokia-feature-phone-105-110-class",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Phone Cases",
@@ -121,7 +151,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/cases-fashion.jpg ; chat fashion-case wall",
       "Specs": "TPU/silicone fashion cases; themes include Hello Kitty, Tom & Jerry, Labubu, butterflies, glitter/quicksand, rhinestones",
       "Notes": "In-store assortment; price varies by model and style. Packaged as Fashion Case.",
-      "Source Links": "Typical India retail for generic fashion covers INR 99-499"
+      "Source Links": "Typical India retail for generic fashion covers INR 99-499",
+      "id": "AH-008-assorted-fashion-back-covers-cartoon-glitter-but",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Phone Cases",
@@ -130,7 +163,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/cases-fashion.jpg ; /workspace/shakti-mobiles/images/cases-wall.jpg",
       "Specs": "3D crystalline / mosaic facet hard-back fashion covers in pink, purple, gold, black",
       "Notes": "In-store assortment; price varies.",
-      "Source Links": "Typical India retail INR 149-499"
+      "Source Links": "Typical India retail INR 149-499",
+      "id": "AH-009-geometric-diamond-facet-fashion-cases",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Phone Cases",
@@ -139,7 +175,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/cases-wall.jpg ; interior counter glass case",
       "Specs": "Clear TPU/PC protective backs; some with glitter insert",
       "Notes": "Large wall inventory of basic clear covers. In-store assortment; price varies.",
-      "Source Links": "Typical India retail INR 99-299"
+      "Source Links": "Typical India retail INR 99-299",
+      "id": "AH-010-transparent-tpu-clear-covers",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Phone Cases",
@@ -148,7 +187,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/cases-wall.jpg",
       "Specs": "Lustre-branded yellow/black hang packs; solid black/navy/red matte or textured protective covers",
       "Notes": "Brand Lustre visible on packaging. Premium end of in-store case range.",
-      "Source Links": "Typical India retail for branded rugged TPU INR 199-499"
+      "Source Links": "Typical India retail for branded rugged TPU INR 199-499",
+      "id": "AH-011-lustre-rugged-matte-tpu-cases",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Phone Cases",
@@ -157,7 +199,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/cases-wall.jpg",
       "Specs": "Clear cases with white circular MagSafe-style magnetic ring",
       "Notes": "Multiple MagSafe ring cases on wall pegs. In-store assortment.",
-      "Source Links": "Typical India retail INR 299-499"
+      "Source Links": "Typical India retail INR 299-499",
+      "id": "AH-012-magsafe-compatible-clear-cases",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Phone Cases",
@@ -166,7 +211,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/cases-wall.jpg",
       "Specs": "Quilted puffer textured soft cases, typically black",
       "Notes": "At least two puffer-style units visible on cases wall.",
-      "Source Links": "Typical India retail INR 249-499"
+      "Source Links": "Typical India retail INR 249-499",
+      "id": "AH-013-puffer-quilted-jacket-style-cases",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Phone Cases",
@@ -175,7 +223,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/cases-wall.jpg",
       "Specs": "Printed graphic covers including Disney (Donald Duck, Minnie), Chanel/Dior-style motifs, Starbucks-style, Ferrari-style logos",
       "Notes": "In-store assortment of printed designer-look cases; unofficial motif prints common in local retail.",
-      "Source Links": "Typical India retail INR 149-499"
+      "Source Links": "Typical India retail INR 149-499",
+      "id": "AH-014-designer-character-graphic-cases-disney-luxury-m",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Phone Accessories",
@@ -184,7 +235,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/cases-wall.jpg",
       "Specs": "Transparent yellow waterproof dry bag with matching neck lanyard; universal phone size",
       "Notes": "Cluster hanging on far-right of cases wall. In-store assortment.",
-      "Source Links": "Typical India retail waterproof pouches INR 99-249"
+      "Source Links": "Typical India retail waterproof pouches INR 99-249",
+      "id": "AH-015-yellow-waterproof-phone-pouches-dry-bags-with-la",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Screen Protection",
@@ -193,7 +247,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/storefront-1.jpg ; storefront-2.jpg",
       "Specs": "Generic tempered glass; store advertises base price INR 100",
       "Notes": "Window card: ANGAALA HUB TEMPER GLASS INR 100. Model-specific pricing may vary.",
-      "Source Links": "In-store advertised price INR 100"
+      "Source Links": "In-store advertised price INR 100",
+      "id": "AH-016-tempered-glass-screen-protector",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Screen Protection",
@@ -202,7 +259,10 @@
       "Image Source/URL": "Chat upload counter (REPROTECT UV vacuum film applicator); storefront yellow banner",
       "Specs": "Sticker/screen guard cutting machine with auto laminate; UV curing lamp; matte/glossy options; mobile + laptop skins",
       "Notes": "REPROTECT Mobile UV vacuum film applicator under glass counter. Service + product hybrid.",
-      "Source Links": "Typical India custom hydrogel/UV film installs INR 149-499"
+      "Source Links": "Typical India custom hydrogel/UV film installs INR 149-499",
+      "id": "AH-017-custom-cut-screen-guard-uv-film-auto-laminate-ma",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Screen Protection",
@@ -211,7 +271,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/storefront-1.jpg",
       "Specs": "Adhesive decorative/protective skins for phones and laptops",
       "Notes": "Blue flyer in window: Laptop and Mobile Skins.",
-      "Source Links": "Typical India retail skins INR 149-499"
+      "Source Links": "Typical India retail skins INR 149-499",
+      "id": "AH-018-laptop-and-mobile-skins",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Audio - Headphones",
@@ -220,7 +283,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/interior-counter.jpg",
       "Specs": "40mm drivers; up to ~15H playback; Bluetooth + AUX; on-ear",
       "Notes": "White boAt over-ear/on-ear box visible on top accessory shelf.",
-      "Source Links": "https://www.boat-lifestyle.com/products/rockerz-450 ; https://www.flipkart.com/boat-rockerz-450-40mm-drivers-15h-battery-stream-ad-free-music-via-app-bluetooth/p/itm077a566bd128b"
+      "Source Links": "https://www.boat-lifestyle.com/products/rockerz-450 ; https://www.flipkart.com/boat-rockerz-450-40mm-drivers-15h-battery-stream-ad-free-music-via-app-bluetooth/p/itm077a566bd128b",
+      "id": "AH-019-boat-rockerz-450-on-ear-bluetooth",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Audio - Headphones",
@@ -229,7 +295,10 @@
       "Image Source/URL": "Chat upload accessory shelves; interior-counter.jpg",
       "Specs": "Over-ear wireless headphones; boAt Shine white/silver packaging among others (P9/P3 wireless headsets also stocked)",
       "Notes": "Multiple over-ear boxes on top shelf including boAt Shine, P9 Wireless Headset, Noise headphones.",
-      "Source Links": "Typical India retail over-ear Bluetooth INR 1499-2499"
+      "Source Links": "Typical India retail over-ear Bluetooth INR 1499-2499",
+      "id": "AH-020-boat-shine-assorted-over-ear-headphones",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Audio - Neckbands",
@@ -238,7 +307,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/interior-counter.jpg ; service-counter.jpg",
       "Specs": "Wireless neckband earphones; Rockerz / Rockerz Turbo Power lineup; Bluetooth",
       "Notes": "Many slim boAt Rockerz boxes; Hardik Pandya Rockerz Turbo Power standee visible. Also Captain / Vibration branded neckband boxes.",
-      "Source Links": "https://www.boat-lifestyle.com/ ; Flipkart boAt Rockerz listings typically INR 799-1499"
+      "Source Links": "https://www.boat-lifestyle.com/ ; Flipkart boAt Rockerz listings typically INR 799-1499",
+      "id": "AH-021-boat-rockerz-series-wireless-neckbands-assorted",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Audio - Neckbands",
@@ -247,7 +319,10 @@
       "Image Source/URL": "Chat upload accessory shelves; interior-counter.jpg",
       "Specs": "Noise-branded wireless neckband earphones",
       "Notes": "Light blue / black Noise box on audio shelf. Exact model name not fully readable.",
-      "Source Links": "https://www.smartprix.com/mobile_headphones/noise-nerve-wireless-neckband-ppd146xzqfsb"
+      "Source Links": "https://www.smartprix.com/mobile_headphones/noise-nerve-wireless-neckband-ppd146xzqfsb",
+      "id": "AH-022-noise-wireless-neckband",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Audio - Neckbands",
@@ -256,7 +331,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/interior-counter.jpg",
       "Specs": "Value wireless neckbands; Rockers 13 Pro box advertises long playback (e.g. 450h claim on pack)",
       "Notes": "Local/value brands alongside boAt on same shelves.",
-      "Source Links": "Typical India retail value neckbands INR 499-999"
+      "Source Links": "Typical India retail value neckbands INR 499-999",
+      "id": "AH-023-ditto-rockers-13-pro-neckbands",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Audio - Neckbands",
@@ -265,7 +343,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/interior-counter.jpg",
       "Specs": "realme yellow retail audio boxes; Buds Classic wired and Buds Wireless neckband variants stocked",
       "Notes": "Multiple signature yellow realme audio boxes on charger/TWS shelf row.",
-      "Source Links": "Flipkart realme Buds listings typically INR 699-1499"
+      "Source Links": "Flipkart realme Buds listings typically INR 699-1499",
+      "id": "AH-024-realme-buds-wireless-buds-classic-neckband-and-w",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Audio - TWS Earbuds",
@@ -274,7 +355,10 @@
       "Image Source/URL": "Chat upload accessory shelves; interior-counter.jpg",
       "Specs": "True wireless earbuds; OnePlus Buds 2r / Nord Buds 2R packaging",
       "Notes": "White/blue Buds 2r box visible among TWS row.",
-      "Source Links": "https://www.smartprix.com/mobile_headphones/oneplus-nord-buds-2r-true-wireless-earbuds-ppd15t83jbh5"
+      "Source Links": "https://www.smartprix.com/mobile_headphones/oneplus-nord-buds-2r-true-wireless-earbuds-ppd15t83jbh5",
+      "id": "AH-025-oneplus-nord-buds-2r-buds-2r",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Audio - TWS Earbuds",
@@ -283,7 +367,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/interior-counter.jpg",
       "Specs": "boAt Airdopes true wireless earbuds; multiple SKUs on shelf",
       "Notes": "Several small Airdopes boxes on TWS shelf. Exact model mix varies.",
-      "Source Links": "https://www.boat-lifestyle.com/ ; Flipkart Airdopes typically INR 799-1999"
+      "Source Links": "https://www.boat-lifestyle.com/ ; Flipkart Airdopes typically INR 799-1999",
+      "id": "AH-026-boat-airdopes-tws-assorted-models",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Audio - TWS Earbuds",
@@ -292,7 +379,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/interior-counter.jpg",
       "Specs": "Value TWS earbuds (U&i branded and M10-style packs)",
       "Notes": "Value TWS next to branded boAt/OnePlus stock.",
-      "Source Links": "Typical India retail generic TWS INR 499-999"
+      "Source Links": "Typical India retail generic TWS INR 499-999",
+      "id": "AH-027-u-i-m10-generic-tws-earbuds",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Audio - Speakers",
@@ -301,7 +391,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/storefront-1.jpg ; storefront-2.jpg",
       "Specs": "~30-50W wireless party speaker; dual drivers; RGB lighting; Bluetooth; some kits include mic",
       "Notes": "Large LYNE JukeBox / Blaster boxes in front window. JukeBox 18 Pro launch around INR 1999.",
-      "Source Links": "https://lyneoriginals.com/products/jukebox-18 ; https://www.fonearena.com/blog/488457/lyne-blaster-series-jukebox-18-pro-price-features.html"
+      "Source Links": "https://lyneoriginals.com/products/jukebox-18 ; https://www.fonearena.com/blog/488457/lyne-blaster-series-jukebox-18-pro-price-features.html",
+      "id": "AH-028-lyne-jukebox-18-blaster-party-speaker",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Audio - Speakers",
@@ -310,7 +403,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/storefront-1.jpg",
       "Specs": "Large vertical portable Bluetooth speaker; dual-woofer party style with RGB rings (window display)",
       "Notes": "BLAST MAX and similar large speaker boxes in storefront window.",
-      "Source Links": "LYNE / local portable speaker retail typically INR 1499-2499"
+      "Source Links": "LYNE / local portable speaker retail typically INR 1499-2499",
+      "id": "AH-029-lyne-blast-max-large-portable-bluetooth-speaker",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Audio - Accessories",
@@ -319,7 +415,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/interior-counter.jpg",
       "Specs": "Clip-on / mobile wireless mic kit for content creators",
       "Notes": "AeroMic box visible on lower accessory shelf.",
-      "Source Links": "Typical India retail wireless lapel mics INR 799-1499"
+      "Source Links": "Typical India retail wireless lapel mics INR 799-1499",
+      "id": "AH-030-aeromic-mobile-wireless-microphone",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Audio - Wired",
@@ -328,7 +427,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/cases-fashion.jpg (right shelves)",
       "Specs": "3.5mm / Type-C wired in-ear earphones in white retail boxes",
       "Notes": "White earphone diagram boxes on glass shelves next to fashion cases.",
-      "Source Links": "Typical India retail INR 99-499"
+      "Source Links": "Typical India retail INR 99-499",
+      "id": "AH-031-assorted-wired-earphones",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Chargers",
@@ -337,7 +439,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/interior-counter.jpg ; cases-fashion.jpg",
       "Specs": "USB wall adapters labeled 35W, 44W FlashCharge, 65W SuperVOOC, 80W, 100W Super Fast on packaging",
       "Notes": "Wattage labels clearly visible on white charger boxes. Compatibility varies by phone brand (VOOC/PD).",
-      "Source Links": "Typical India retail GaN/fast adapters INR 399-1499 depending on wattage/brand"
+      "Source Links": "Typical India retail GaN/fast adapters INR 399-1499 depending on wattage/brand",
+      "id": "AH-032-fast-wall-chargers-35w-44w-65w-80w-100w",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Chargers",
@@ -346,7 +451,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/interior-counter.jpg",
       "Specs": "12V car USB chargers including 30W PD and branded realme/Lyne packs",
       "Notes": "Multiple car-charger boxes on mid shelves.",
-      "Source Links": "Typical India retail car chargers INR 299-799"
+      "Source Links": "Typical India retail car chargers INR 299-799",
+      "id": "AH-033-car-chargers-30w-pd-realme-lyne-fuel-3v",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Cables",
@@ -355,7 +463,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/cases-fashion.jpg ; interior-counter.jpg",
       "Specs": "USB-A/USB-C/Lightning data and fast-charge cables in white retail boxes",
       "Notes": "Dense stock of cable boxes on glass shelves beside fashion cases and behind counter.",
-      "Source Links": "Typical India retail INR 99-499"
+      "Source Links": "Typical India retail INR 99-499",
+      "id": "AH-034-assorted-usb-data-fast-charging-cables",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Power Banks",
@@ -364,7 +475,10 @@
       "Image Source/URL": "Chat upload accessory shelves; interior-counter.jpg",
       "Specs": "realme yellow 10000mAh power bank (18W-33W variants common)",
       "Notes": "Signature yellow realme power-bank box on lower shelf.",
-      "Source Links": "https://www.flipkart.com/realme-10000-mah-power-bank-22-5-w-quick-charge-3-0/p/itm3b697fca93ba8"
+      "Source Links": "https://www.flipkart.com/realme-10000-mah-power-bank-22-5-w-quick-charge-3-0/p/itm3b697fca93ba8",
+      "id": "AH-035-realme-10000mah-power-bank",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Power Banks",
@@ -373,7 +487,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/interior-counter.jpg",
       "Specs": "10000mAh portable battery packs (black retail box also visible)",
       "Notes": "Additional non-realme 10000mAh box on bottom shelf.",
-      "Source Links": "Typical India retail INR 499-999"
+      "Source Links": "Typical India retail INR 499-999",
+      "id": "AH-036-10000mah-power-bank-generic-multi-brand",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Chargers",
@@ -382,7 +499,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/interior-counter.jpg",
       "Specs": "Circular Qi wireless charging puck in square white retail box",
       "Notes": "Visible on bottom accessory shelf.",
-      "Source Links": "Typical India retail wireless pads INR 499-999"
+      "Source Links": "Typical India retail wireless pads INR 499-999",
+      "id": "AH-037-wireless-charging-pad",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Wearables",
@@ -391,7 +511,10 @@
       "Image Source/URL": "/workspace/shakti-mobiles/images/interior-counter.jpg",
       "Specs": "Square-faced smartwatch in LYNE black retail packaging; BT calling variants common in segment",
       "Notes": "LYNE smartwatch box clearly labeled on mid shelf. Exact model number not fully readable.",
-      "Source Links": "LYNE value smartwatch India retail typically INR 999-1999"
+      "Source Links": "LYNE value smartwatch India retail typically INR 999-1999",
+      "id": "AH-038-lyne-smartwatch",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     },
     {
       "Category": "Wearables",
@@ -400,7 +523,10 @@
       "Image Source/URL": "Storefront yellow banner icons; accessory shelves",
       "Specs": "Smartwatches advertised on store banner (icons) and stocked in square boxes",
       "Notes": "Banner promotes smartwatches; multiple square watch boxes on shelves beyond LYNE.",
-      "Source Links": "Typical India retail entry smartwatches INR 999-2499"
+      "Source Links": "Typical India retail entry smartwatches INR 999-2499",
+      "id": "AH-039-assorted-smartwatches-multi-brand",
+      "created_at": "2026-09-26T23:41:58+05:30",
+      "modified_at": "2026-09-26T23:41:58+05:30"
     }
   ],
   "counts_by_category": {
@@ -420,5 +546,280 @@
     "Feature Phones": 1,
     "Phone Accessories": 1
   },
-  "total_products": 39
+  "total_products": 39,
+  "history": [
+    {
+      "product_id": "AH-001-infinix-smart-8-hd-shiny-gold-3gb-64gb",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Smartphones\", \"Product Name\": \"Infinix SMART 8 HD (Shiny Gold, 3GB/64GB)\", \"Price (INR)\": \"6699\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/products/phone-4g.jpg\", \"Specs\": \"6.6\\\" HD+ IPS; Unisoc T606; 3GB RAM / 64GB ROM (expandable to 2TB); 13MP + AI rear, 8MP front; 5000mAh; 10W; Dual SIM 4G\", \"Notes\": \"Verified Flipkart listing. Color Shiny Gold visible in store product photo. Alternate images: phone-4g-infinix.jpg, phone-4g-alt.jpg.\", \"Source Links\": \"https://www.flipkart.com/infinix-smart-8-hd-shiny-gold-64-gb/p/itm709d885ba6ac1?pid=MOBGVAPXG4WHFR9M ; https://infinixmobiles.in/products/smart-8-hd\", \"id\": \"AH-001-infinix-smart-8-hd-shiny-gold-3gb-64gb\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-002-poco-c75-5g-aqua-bliss-4gb-64gb",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Smartphones\", \"Product Name\": \"POCO C75 5G (Aqua Bliss, 4GB/64GB)\", \"Price (INR)\": \"10999\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/products/phone-5g-try1.jpg\", \"Specs\": \"6.88\\\" HD+ 120Hz; Snapdragon 4s Gen 2 5G; 4GB/64GB (expandable 1TB); 50MP Sony rear, 5MP front; 5160mAh; Dual SIM\", \"Notes\": \"Prefer phone-5g-try1.jpg over phone-5g.jpg per catalog guidance. Flipkart ~INR 10,999 (bank offer may lower).\", \"Source Links\": \"https://www.flipkart.com/poco-c75-5g-aqua-bliss-64-gb/p/itm10b3f6f1bc616\", \"id\": \"AH-002-poco-c75-5g-aqua-bliss-4gb-64gb\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-003-lava-bold-n4-lite-empire-gold-3gb-32gb",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Smartphones\", \"Product Name\": \"Lava Bold N4 Lite (Empire Gold, 3GB/32GB)\", \"Price (INR)\": \"8399\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/products/phone-samsung-f05.jpg\", \"Specs\": \"6.56\\\" qHD; Unisoc 9863A; 3GB+3GB virtual RAM / 32GB ROM (expandable 64GB); 8MP rear, 5MP front; 5000mAh; 10W; Android 16 Go; MIL-STD-810H\", \"Notes\": \"File named phone-samsung-f05.jpg but image content is Lava Bold N4 Lite (LAVA logo + BOLD N4 LITE on screen). Same asset as phone-4g-samsung-amz.jpg. Amazon.in exclusive; ~INR 7,999–8,399.\", \"Source Links\": \"https://www.amazon.in/Lava-Storage-Display-Fingerprint-Phone-Cover/dp/B0HDPDGKJ4 ; https://www.91mobiles.com/lava-bold-n4-lite-4g-price-in-india\", \"id\": \"AH-003-lava-bold-n4-lite-empire-gold-3gb-32gb\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-004-samsung-galaxy-f05-4gb-64gb",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Smartphones\", \"Product Name\": \"Samsung Galaxy F05 (4GB/64GB)\", \"Price (INR)\": \"6499\", \"Image Source/URL\": \"Store brand signage (Samsung listed); no dedicated clear F05 product photo in inspected set\", \"Specs\": \"6.74\\\" HD+; Helio G85; 4GB/64GB (expandable 1TB); 50MP+2MP rear, 8MP front; 5000mAh; 25W; Android 14; Dual SIM 4G\", \"Notes\": \"Store sells Samsung (signage). Prior catalog guidance confirmed ~INR 6,499 Flipkart/Smartprix. Dedicated image file was mislabeled (see Lava Bold N4 Lite row).\", \"Source Links\": \"https://www.flipkart.com/samsung-galaxy-f05-twilight-blue-64-gb/p/itm84a914081ab93 ; https://www.smartprix.com/mobiles/samsung-galaxy-f05-ppd1u4z3r099\", \"id\": \"AH-004-samsung-galaxy-f05-4gb-64gb\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-005-redmi-a3-assorted-variants",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Smartphones\", \"Product Name\": \"REDMI A3 (assorted variants)\", \"Price (INR)\": \"6998-7340\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/service-counter.jpg ; chat upload interior counter\", \"Specs\": \"Budget Redmi A-series; typical configs 3GB/64GB to 6GB/128GB; Dual SIM 4G\", \"Notes\": \"Red retail box clearly visible on glass counter labeled REDMI A3. Exact RAM/storage of in-store unit not readable; price range from Flipkart variants.\", \"Source Links\": \"https://pricehistory.app/p/redmi-a3-lake-blue-64-gb-3-TTlxopmb ; https://www.flipkart.com/redmi-a3-lake-blue-128-gb/p/itmbe3bd4f2bebed\", \"id\": \"AH-005-redmi-a3-assorted-variants\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-006-realme-smartphone-boxed-model-unclear",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Smartphones\", \"Product Name\": \"realme smartphone (boxed — model unclear)\", \"Price (INR)\": \"Varies\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/service-counter.jpg\", \"Specs\": \"realme branded yellow retail box on counter; exact model text not fully legible (possible C-series)\", \"Notes\": \"Could not confidently identify exact model from box photo. Store carries realme (signage + accessories).\", \"Source Links\": \"https://www.realme.com/in/\", \"id\": \"AH-006-realme-smartphone-boxed-model-unclear\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-007-nokia-feature-phone-105-110-class",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Feature Phones\", \"Product Name\": \"Nokia feature phone (105/110-class)\", \"Price (INR)\": \"999-1589\", \"Image Source/URL\": \"Chat upload service/accessory shelves (Nokia blue box)\", \"Specs\": \"Keypad feature phone; Dual SIM options typical for Nokia 105 Classic / related\", \"Notes\": \"Small blue Nokia retail box visible on lower accessory shelf. Exact SKU (105 vs 110) not readable at distance.\", \"Source Links\": \"https://pricehunt.com/mobiles/nokia-105.php\", \"id\": \"AH-007-nokia-feature-phone-105-110-class\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-008-assorted-fashion-back-covers-cartoon-glitter-but",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Phone Cases\", \"Product Name\": \"Assorted fashion back covers (cartoon / glitter / butterfly)\", \"Price (INR)\": \"99-499\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/cases-fashion.jpg ; chat fashion-case wall\", \"Specs\": \"TPU/silicone fashion cases; themes include Hello Kitty, Tom & Jerry, Labubu, butterflies, glitter/quicksand, rhinestones\", \"Notes\": \"In-store assortment; price varies by model and style. Packaged as Fashion Case.\", \"Source Links\": \"Typical India retail for generic fashion covers INR 99-499\", \"id\": \"AH-008-assorted-fashion-back-covers-cartoon-glitter-but\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-009-geometric-diamond-facet-fashion-cases",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Phone Cases\", \"Product Name\": \"Geometric / diamond-facet fashion cases\", \"Price (INR)\": \"149-499\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/cases-fashion.jpg ; /workspace/shakti-mobiles/images/cases-wall.jpg\", \"Specs\": \"3D crystalline / mosaic facet hard-back fashion covers in pink, purple, gold, black\", \"Notes\": \"In-store assortment; price varies.\", \"Source Links\": \"Typical India retail INR 149-499\", \"id\": \"AH-009-geometric-diamond-facet-fashion-cases\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-010-transparent-tpu-clear-covers",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Phone Cases\", \"Product Name\": \"Transparent TPU / clear covers\", \"Price (INR)\": \"99-299\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/cases-wall.jpg ; interior counter glass case\", \"Specs\": \"Clear TPU/PC protective backs; some with glitter insert\", \"Notes\": \"Large wall inventory of basic clear covers. In-store assortment; price varies.\", \"Source Links\": \"Typical India retail INR 99-299\", \"id\": \"AH-010-transparent-tpu-clear-covers\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-011-lustre-rugged-matte-tpu-cases",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Phone Cases\", \"Product Name\": \"Lustre rugged / matte TPU cases\", \"Price (INR)\": \"199-499\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/cases-wall.jpg\", \"Specs\": \"Lustre-branded yellow/black hang packs; solid black/navy/red matte or textured protective covers\", \"Notes\": \"Brand Lustre visible on packaging. Premium end of in-store case range.\", \"Source Links\": \"Typical India retail for branded rugged TPU INR 199-499\", \"id\": \"AH-011-lustre-rugged-matte-tpu-cases\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-012-magsafe-compatible-clear-cases",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Phone Cases\", \"Product Name\": \"MagSafe-compatible clear cases\", \"Price (INR)\": \"299-499\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/cases-wall.jpg\", \"Specs\": \"Clear cases with white circular MagSafe-style magnetic ring\", \"Notes\": \"Multiple MagSafe ring cases on wall pegs. In-store assortment.\", \"Source Links\": \"Typical India retail INR 299-499\", \"id\": \"AH-012-magsafe-compatible-clear-cases\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-013-puffer-quilted-jacket-style-cases",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Phone Cases\", \"Product Name\": \"Puffer / quilted jacket-style cases\", \"Price (INR)\": \"249-499\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/cases-wall.jpg\", \"Specs\": \"Quilted puffer textured soft cases, typically black\", \"Notes\": \"At least two puffer-style units visible on cases wall.\", \"Source Links\": \"Typical India retail INR 249-499\", \"id\": \"AH-013-puffer-quilted-jacket-style-cases\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-014-designer-character-graphic-cases-disney-luxury-m",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Phone Cases\", \"Product Name\": \"Designer / character graphic cases (Disney, luxury-motif prints)\", \"Price (INR)\": \"149-499\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/cases-wall.jpg\", \"Specs\": \"Printed graphic covers including Disney (Donald Duck, Minnie), Chanel/Dior-style motifs, Starbucks-style, Ferrari-style logos\", \"Notes\": \"In-store assortment of printed designer-look cases; unofficial motif prints common in local retail.\", \"Source Links\": \"Typical India retail INR 149-499\", \"id\": \"AH-014-designer-character-graphic-cases-disney-luxury-m\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-015-yellow-waterproof-phone-pouches-dry-bags-with-la",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Phone Accessories\", \"Product Name\": \"Yellow waterproof phone pouches (dry bags with lanyard)\", \"Price (INR)\": \"99-249\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/cases-wall.jpg\", \"Specs\": \"Transparent yellow waterproof dry bag with matching neck lanyard; universal phone size\", \"Notes\": \"Cluster hanging on far-right of cases wall. In-store assortment.\", \"Source Links\": \"Typical India retail waterproof pouches INR 99-249\", \"id\": \"AH-015-yellow-waterproof-phone-pouches-dry-bags-with-la\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-016-tempered-glass-screen-protector",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Screen Protection\", \"Product Name\": \"Tempered glass screen protector\", \"Price (INR)\": \"100\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/storefront-1.jpg ; storefront-2.jpg\", \"Specs\": \"Generic tempered glass; store advertises base price INR 100\", \"Notes\": \"Window card: ANGAALA HUB TEMPER GLASS INR 100. Model-specific pricing may vary.\", \"Source Links\": \"In-store advertised price INR 100\", \"id\": \"AH-016-tempered-glass-screen-protector\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-017-custom-cut-screen-guard-uv-film-auto-laminate-ma",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Screen Protection\", \"Product Name\": \"Custom-cut screen guard / UV film (auto laminate machine)\", \"Price (INR)\": \"149-499\", \"Image Source/URL\": \"Chat upload counter (REPROTECT UV vacuum film applicator); storefront yellow banner\", \"Specs\": \"Sticker/screen guard cutting machine with auto laminate; UV curing lamp; matte/glossy options; mobile + laptop skins\", \"Notes\": \"REPROTECT Mobile UV vacuum film applicator under glass counter. Service + product hybrid.\", \"Source Links\": \"Typical India custom hydrogel/UV film installs INR 149-499\", \"id\": \"AH-017-custom-cut-screen-guard-uv-film-auto-laminate-ma\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-018-laptop-and-mobile-skins",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Screen Protection\", \"Product Name\": \"Laptop and mobile skins\", \"Price (INR)\": \"149-499\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/storefront-1.jpg\", \"Specs\": \"Adhesive decorative/protective skins for phones and laptops\", \"Notes\": \"Blue flyer in window: Laptop and Mobile Skins.\", \"Source Links\": \"Typical India retail skins INR 149-499\", \"id\": \"AH-018-laptop-and-mobile-skins\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-019-boat-rockerz-450-on-ear-bluetooth",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Audio - Headphones\", \"Product Name\": \"boAt Rockerz 450 (on-ear Bluetooth)\", \"Price (INR)\": \"1699-1899\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/interior-counter.jpg\", \"Specs\": \"40mm drivers; up to ~15H playback; Bluetooth + AUX; on-ear\", \"Notes\": \"White boAt over-ear/on-ear box visible on top accessory shelf.\", \"Source Links\": \"https://www.boat-lifestyle.com/products/rockerz-450 ; https://www.flipkart.com/boat-rockerz-450-40mm-drivers-15h-battery-stream-ad-free-music-via-app-bluetooth/p/itm077a566bd128b\", \"id\": \"AH-019-boat-rockerz-450-on-ear-bluetooth\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-020-boat-shine-assorted-over-ear-headphones",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Audio - Headphones\", \"Product Name\": \"boAt Shine / assorted over-ear headphones\", \"Price (INR)\": \"1499-2499\", \"Image Source/URL\": \"Chat upload accessory shelves; interior-counter.jpg\", \"Specs\": \"Over-ear wireless headphones; boAt Shine white/silver packaging among others (P9/P3 wireless headsets also stocked)\", \"Notes\": \"Multiple over-ear boxes on top shelf including boAt Shine, P9 Wireless Headset, Noise headphones.\", \"Source Links\": \"Typical India retail over-ear Bluetooth INR 1499-2499\", \"id\": \"AH-020-boat-shine-assorted-over-ear-headphones\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-021-boat-rockerz-series-wireless-neckbands-assorted",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Audio - Neckbands\", \"Product Name\": \"boAt Rockerz series wireless neckbands (assorted)\", \"Price (INR)\": \"799-1499\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/interior-counter.jpg ; service-counter.jpg\", \"Specs\": \"Wireless neckband earphones; Rockerz / Rockerz Turbo Power lineup; Bluetooth\", \"Notes\": \"Many slim boAt Rockerz boxes; Hardik Pandya Rockerz Turbo Power standee visible. Also Captain / Vibration branded neckband boxes.\", \"Source Links\": \"https://www.boat-lifestyle.com/ ; Flipkart boAt Rockerz listings typically INR 799-1499\", \"id\": \"AH-021-boat-rockerz-series-wireless-neckbands-assorted\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-022-noise-wireless-neckband",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Audio - Neckbands\", \"Product Name\": \"Noise wireless neckband\", \"Price (INR)\": \"999-1499\", \"Image Source/URL\": \"Chat upload accessory shelves; interior-counter.jpg\", \"Specs\": \"Noise-branded wireless neckband earphones\", \"Notes\": \"Light blue / black Noise box on audio shelf. Exact model name not fully readable.\", \"Source Links\": \"https://www.smartprix.com/mobile_headphones/noise-nerve-wireless-neckband-ppd146xzqfsb\", \"id\": \"AH-022-noise-wireless-neckband\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-023-ditto-rockers-13-pro-neckbands",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Audio - Neckbands\", \"Product Name\": \"DITTO / Rockers 13 Pro neckbands\", \"Price (INR)\": \"499-999\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/interior-counter.jpg\", \"Specs\": \"Value wireless neckbands; Rockers 13 Pro box advertises long playback (e.g. 450h claim on pack)\", \"Notes\": \"Local/value brands alongside boAt on same shelves.\", \"Source Links\": \"Typical India retail value neckbands INR 499-999\", \"id\": \"AH-023-ditto-rockers-13-pro-neckbands\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-024-realme-buds-wireless-buds-classic-neckband-and-w",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Audio - Neckbands\", \"Product Name\": \"realme Buds Wireless / Buds Classic (neckband and wired)\", \"Price (INR)\": \"699-1499\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/interior-counter.jpg\", \"Specs\": \"realme yellow retail audio boxes; Buds Classic wired and Buds Wireless neckband variants stocked\", \"Notes\": \"Multiple signature yellow realme audio boxes on charger/TWS shelf row.\", \"Source Links\": \"Flipkart realme Buds listings typically INR 699-1499\", \"id\": \"AH-024-realme-buds-wireless-buds-classic-neckband-and-w\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-025-oneplus-nord-buds-2r-buds-2r",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Audio - TWS Earbuds\", \"Product Name\": \"OnePlus Nord Buds 2r (Buds 2r)\", \"Price (INR)\": \"1649-2199\", \"Image Source/URL\": \"Chat upload accessory shelves; interior-counter.jpg\", \"Specs\": \"True wireless earbuds; OnePlus Buds 2r / Nord Buds 2R packaging\", \"Notes\": \"White/blue Buds 2r box visible among TWS row.\", \"Source Links\": \"https://www.smartprix.com/mobile_headphones/oneplus-nord-buds-2r-true-wireless-earbuds-ppd15t83jbh5\", \"id\": \"AH-025-oneplus-nord-buds-2r-buds-2r\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-026-boat-airdopes-tws-assorted-models",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Audio - TWS Earbuds\", \"Product Name\": \"boAt Airdopes TWS (assorted models)\", \"Price (INR)\": \"799-1999\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/interior-counter.jpg\", \"Specs\": \"boAt Airdopes true wireless earbuds; multiple SKUs on shelf\", \"Notes\": \"Several small Airdopes boxes on TWS shelf. Exact model mix varies.\", \"Source Links\": \"https://www.boat-lifestyle.com/ ; Flipkart Airdopes typically INR 799-1999\", \"id\": \"AH-026-boat-airdopes-tws-assorted-models\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-027-u-i-m10-generic-tws-earbuds",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Audio - TWS Earbuds\", \"Product Name\": \"U&i / M10 / generic TWS earbuds\", \"Price (INR)\": \"499-999\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/interior-counter.jpg\", \"Specs\": \"Value TWS earbuds (U&i branded and M10-style packs)\", \"Notes\": \"Value TWS next to branded boAt/OnePlus stock.\", \"Source Links\": \"Typical India retail generic TWS INR 499-999\", \"id\": \"AH-027-u-i-m10-generic-tws-earbuds\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-028-lyne-jukebox-18-blaster-party-speaker",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Audio - Speakers\", \"Product Name\": \"LYNE JukeBox 18 / Blaster party speaker\", \"Price (INR)\": \"1899-1999\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/storefront-1.jpg ; storefront-2.jpg\", \"Specs\": \"~30-50W wireless party speaker; dual drivers; RGB lighting; Bluetooth; some kits include mic\", \"Notes\": \"Large LYNE JukeBox / Blaster boxes in front window. JukeBox 18 Pro launch around INR 1999.\", \"Source Links\": \"https://lyneoriginals.com/products/jukebox-18 ; https://www.fonearena.com/blog/488457/lyne-blaster-series-jukebox-18-pro-price-features.html\", \"id\": \"AH-028-lyne-jukebox-18-blaster-party-speaker\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-029-lyne-blast-max-large-portable-bluetooth-speaker",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Audio - Speakers\", \"Product Name\": \"LYNE BLAST MAX / large portable Bluetooth speaker\", \"Price (INR)\": \"1499-2499\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/storefront-1.jpg\", \"Specs\": \"Large vertical portable Bluetooth speaker; dual-woofer party style with RGB rings (window display)\", \"Notes\": \"BLAST MAX and similar large speaker boxes in storefront window.\", \"Source Links\": \"LYNE / local portable speaker retail typically INR 1499-2499\", \"id\": \"AH-029-lyne-blast-max-large-portable-bluetooth-speaker\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-030-aeromic-mobile-wireless-microphone",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Audio - Accessories\", \"Product Name\": \"AeroMic mobile wireless microphone\", \"Price (INR)\": \"799-1499\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/interior-counter.jpg\", \"Specs\": \"Clip-on / mobile wireless mic kit for content creators\", \"Notes\": \"AeroMic box visible on lower accessory shelf.\", \"Source Links\": \"Typical India retail wireless lapel mics INR 799-1499\", \"id\": \"AH-030-aeromic-mobile-wireless-microphone\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-031-assorted-wired-earphones",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Audio - Wired\", \"Product Name\": \"Assorted wired earphones\", \"Price (INR)\": \"99-499\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/cases-fashion.jpg (right shelves)\", \"Specs\": \"3.5mm / Type-C wired in-ear earphones in white retail boxes\", \"Notes\": \"White earphone diagram boxes on glass shelves next to fashion cases.\", \"Source Links\": \"Typical India retail INR 99-499\", \"id\": \"AH-031-assorted-wired-earphones\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-032-fast-wall-chargers-35w-44w-65w-80w-100w",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Chargers\", \"Product Name\": \"Fast wall chargers (35W / 44W / 65W / 80W / 100W)\", \"Price (INR)\": \"399-1499\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/interior-counter.jpg ; cases-fashion.jpg\", \"Specs\": \"USB wall adapters labeled 35W, 44W FlashCharge, 65W SuperVOOC, 80W, 100W Super Fast on packaging\", \"Notes\": \"Wattage labels clearly visible on white charger boxes. Compatibility varies by phone brand (VOOC/PD).\", \"Source Links\": \"Typical India retail GaN/fast adapters INR 399-1499 depending on wattage/brand\", \"id\": \"AH-032-fast-wall-chargers-35w-44w-65w-80w-100w\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-033-car-chargers-30w-pd-realme-lyne-fuel-3v",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Chargers\", \"Product Name\": \"Car chargers (30W PD / realme / Lyne / Fuel 3V)\", \"Price (INR)\": \"299-799\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/interior-counter.jpg\", \"Specs\": \"12V car USB chargers including 30W PD and branded realme/Lyne packs\", \"Notes\": \"Multiple car-charger boxes on mid shelves.\", \"Source Links\": \"Typical India retail car chargers INR 299-799\", \"id\": \"AH-033-car-chargers-30w-pd-realme-lyne-fuel-3v\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-034-assorted-usb-data-fast-charging-cables",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Cables\", \"Product Name\": \"Assorted USB data / fast-charging cables\", \"Price (INR)\": \"99-499\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/cases-fashion.jpg ; interior-counter.jpg\", \"Specs\": \"USB-A/USB-C/Lightning data and fast-charge cables in white retail boxes\", \"Notes\": \"Dense stock of cable boxes on glass shelves beside fashion cases and behind counter.\", \"Source Links\": \"Typical India retail INR 99-499\", \"id\": \"AH-034-assorted-usb-data-fast-charging-cables\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-035-realme-10000mah-power-bank",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Power Banks\", \"Product Name\": \"realme 10000mAh power bank\", \"Price (INR)\": \"599-999\", \"Image Source/URL\": \"Chat upload accessory shelves; interior-counter.jpg\", \"Specs\": \"realme yellow 10000mAh power bank (18W-33W variants common)\", \"Notes\": \"Signature yellow realme power-bank box on lower shelf.\", \"Source Links\": \"https://www.flipkart.com/realme-10000-mah-power-bank-22-5-w-quick-charge-3-0/p/itm3b697fca93ba8\", \"id\": \"AH-035-realme-10000mah-power-bank\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-036-10000mah-power-bank-generic-multi-brand",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Power Banks\", \"Product Name\": \"10000mAh power bank (generic / multi-brand)\", \"Price (INR)\": \"499-999\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/interior-counter.jpg\", \"Specs\": \"10000mAh portable battery packs (black retail box also visible)\", \"Notes\": \"Additional non-realme 10000mAh box on bottom shelf.\", \"Source Links\": \"Typical India retail INR 499-999\", \"id\": \"AH-036-10000mah-power-bank-generic-multi-brand\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-037-wireless-charging-pad",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Chargers\", \"Product Name\": \"Wireless charging pad\", \"Price (INR)\": \"499-999\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/interior-counter.jpg\", \"Specs\": \"Circular Qi wireless charging puck in square white retail box\", \"Notes\": \"Visible on bottom accessory shelf.\", \"Source Links\": \"Typical India retail wireless pads INR 499-999\", \"id\": \"AH-037-wireless-charging-pad\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-038-lyne-smartwatch",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Wearables\", \"Product Name\": \"LYNE smartwatch\", \"Price (INR)\": \"999-1999\", \"Image Source/URL\": \"/workspace/shakti-mobiles/images/interior-counter.jpg\", \"Specs\": \"Square-faced smartwatch in LYNE black retail packaging; BT calling variants common in segment\", \"Notes\": \"LYNE smartwatch box clearly labeled on mid shelf. Exact model number not fully readable.\", \"Source Links\": \"LYNE value smartwatch India retail typically INR 999-1999\", \"id\": \"AH-038-lyne-smartwatch\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    },
+    {
+      "product_id": "AH-039-assorted-smartwatches-multi-brand",
+      "change_type": "added",
+      "old_value": "",
+      "new_value": "{\"Category\": \"Wearables\", \"Product Name\": \"Assorted smartwatches (multi-brand)\", \"Price (INR)\": \"999-2499\", \"Image Source/URL\": \"Storefront yellow banner icons; accessory shelves\", \"Specs\": \"Smartwatches advertised on store banner (icons) and stocked in square boxes\", \"Notes\": \"Banner promotes smartwatches; multiple square watch boxes on shelves beyond LYNE.\", \"Source Links\": \"Typical India retail entry smartwatches INR 999-2499\", \"id\": \"AH-039-assorted-smartwatches-multi-brand\"}",
+      "timestamp": "2026-09-26T23:41:58+05:30"
+    }
+  ]
 }
