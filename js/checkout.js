@@ -86,7 +86,7 @@
       currency: "INR",
       name: "Angaala Hub",
       description: current.name + " (TEST)",
-      image: "images/ah-mark-v5.png?v=6",
+      image: "images/ah-mark-v6.png?v=8",
       prefill: { contact: "7619514677", email: "info@angaalahub.com" },
       notes: { product_id: current.id, mode: "sandbox" },
       theme: { color: "#e07a12" },
